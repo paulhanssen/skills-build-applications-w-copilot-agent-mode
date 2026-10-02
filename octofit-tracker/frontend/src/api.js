@@ -6,7 +6,7 @@ export const API_BASE_URL = codespaceName
   : '/api'
 
 export function apiUrl(resource) {
-  return `${API_BASE_URL}/${resource}`
+  return `${API_BASE_URL}/${resource}/`
 }
 
 export function recordsFromResponse(payload) {
